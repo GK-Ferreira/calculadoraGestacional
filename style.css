@@ -23,6 +23,67 @@ section {
     height: 100vh;
     border: 1px solid #e44977;
 }
+.areamonth1{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+}
+.areamonth1 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth2 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth3 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth1 p{
+    font-size: 1rem;
+    color: #B85858;
+}
+.areamonth2{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    right: 5%;
+    top:50%;
+}
+.areamonth2 p{
+    font-size: 1rem;
+    color: #B85858;
+}
+.areamonth3{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 65%;
+    left: 27.4%;
+}
+.areamonth3 p{
+    font-size: 1rem;
+    color: #B85858;
+}
 .principal{
 
     background-color:#F7D6E0;
@@ -416,7 +477,7 @@ p{
         font-size: 40px !important;
     }
     .dev_bebe h1{
-    font-size: 40px;
+    font-size: 35px !important;
     flex-wrap: wrap;
     width: 90%;
     }
@@ -431,6 +492,34 @@ p{
     }
     .containerBebe{
         width: 90%;
+        display: none;
+    }
+    .dev_bebe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .7rem;
+    }
+    .areamonth1{
+        position: static;
+        transform: translate(0,0);
+        width: 100%;
+    }
+    .areamonth2{
+        position: static;
+        width: 100%;
+    }
+    .areamonth3{
+        position: static;
+        width: 100%;
+    }
+    .areamonth2 p{
+        font-size: 14px;
+
+    }
+    .areamonth3 p{
+        font-size: 14px;
     }
     .dpp{
         height: 250px;
