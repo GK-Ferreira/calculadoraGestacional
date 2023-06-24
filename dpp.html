@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de DDP</title>
+  </head>
+  <body>
+    <h1>Calculadora de DDP</h1>
+    <form>
+      <label>Dia:</label>
+      <select id="dia">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <!-- Adicione todas as opções de dias aqui -->
+        <option value="31">31</option>
+      </select>
+      
+      <label>Mês:</label>
+      <select id="mes">
+        <option value="1">Janeiro</option>
+        <option value="2">Fevereiro</option>
+        <!-- Adicione todas as opções de meses aqui -->
+        <option value="12">Dezembro</option>
+      </select>
+      
+      <label>Ano:</label>
+      <select id="ano">
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <!-- Adicione todas as opções de anos aqui -->
+        <option value="2023">2023</option>
+      </select>
+      
+      <button type="button" onclick="calcularDDP()">Calcular DDP</button>
+      <p>A data provável de parto é: <span id="ddp"></span></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
