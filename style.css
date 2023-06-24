@@ -135,7 +135,7 @@ bottom: 0 ;
     text-shadow: 4px 4px 4px #F2B5D4;
 }
 .content{
-    max-width: 90%;
+    max-width: 96%;
     width: 800px;
     margin: 40px auto;
     animation: opacity 1s ease;
@@ -420,8 +420,11 @@ p{
     flex-wrap: wrap;
     width: 90%;
     }
+    .content{
+        margin:0 auto;
+    }
     .content ul li{
-        font-size: 20px;
+        font-size: 18px;
     }
     .rightGestant{
         width: 300px;
