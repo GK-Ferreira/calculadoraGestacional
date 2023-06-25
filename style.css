@@ -18,6 +18,10 @@ html{
     border-radius: 4px;
 
 }
+.dev_bebe.secondary{
+    background-color: #B85858;
+}
+
 section {
     width: 100%;
     height: 100vh;
@@ -81,6 +85,129 @@ section {
     left: 27.4%;
 }
 .areamonth3 p{
+    font-size: 1rem;
+    color: #B85858;
+}
+.areamonth4{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-40%,-40%);
+}
+.areamonth4 h1{
+    color: #fff !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #B85858 !important;
+}
+.areamonth5 h1{
+    color: #fff !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #B85858 !important;
+}
+.areamonth6 h1{
+    color: #fff !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #B85858 !important;
+}
+.areamonth4 p{
+    font-size: 1rem;
+    color: #fff;
+}
+.areamonth5{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    left: 10%;
+    top:50%;
+}
+.areamonth5 p{
+    font-size: 1rem;
+    color: #fff;
+}
+.areamonth6{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translateX(-40%);
+}
+.areamonth6 p{
+    font-size: 1rem;
+    color: #fff;
+}
+.areamonth7{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+}
+.areamonth7 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth8 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth9 h1{
+    color: #B85858 !important;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #ccc !important;
+}
+.areamonth7 p{
+    font-size: 1rem;
+    color: #B85858;
+}
+.areamonth8{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    right: 5%;
+    top:50%;
+}
+.areamonth8 p{
+    font-size: 1rem;
+    color: #B85858;
+}
+.areamonth9{
+    background-color: rgba(255,255,255,.2);
+    padding: 8px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 90%;
+    position: absolute;
+    top: 65%;
+    left: 27.4%;
+}
+.areamonth9 p{
     font-size: 1rem;
     color: #B85858;
 }
@@ -214,7 +341,7 @@ bottom: 0 ;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F7D6E0;
+    background-color: #B85858;
 }
 .dpp form{
     max-width: 97%;
@@ -501,6 +628,14 @@ p{
         align-items: center;
         gap: .7rem;
     }
+    .dev_bebe.secondary{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .7rem;
+
+    }
     .areamonth1{
         position: static;
         transform: translate(0,0);
@@ -521,12 +656,54 @@ p{
     .areamonth3 p{
         font-size: 14px;
     }
+    .areamonth4{
+        position: static;
+        transform: translate(0,0);
+        width: 100%;
+    }
+    .areamonth5{
+        position: static;
+        width: 100%;
+    }
+    .areamonth6{
+        position: static;
+        width: 100%;
+        transform: translateX(0);
+    }
+    .areamonth5 p{
+        font-size: 14px;
+
+    }
+    .areamonth6 p{
+        font-size: 14px;
+    }
+    .areamonth7{
+        position: static;
+        transform: translate(0,0);
+        width: 100%;
+    }
+    .areamonth8{
+        position: static;
+        width: 100%;
+    }
+    .areamonth9{
+        position: static;
+        width: 100%;
+        transform: translateX(0);
+    }
+    .areamonth8 p{
+        font-size: 14px;
+
+    }
+    .areamonth9 p{
+        font-size: 14px;
+    }
     .dpp{
         height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F7D6E0;
+        background-color: #B85858;
     }
     .dpp form{
         background-color: #fff;
